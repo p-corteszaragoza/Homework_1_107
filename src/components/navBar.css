@@ -1,0 +1,32 @@
+.navbar-page {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 5rem;
+}
+
+.navbar-page ul {
+    background-color: black;
+    list-style-type: none;
+    display: flex;
+    padding-left: 0px;
+}
+  
+.navbar-page li {
+    flex: 5;
+}
+
+.navbar-page li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+}
+   
+.navbar-page  li a:hover {
+  background-color: #b8be84;
+}
+
+.navbar-page .active {
+    background-color: #579732;
+}
